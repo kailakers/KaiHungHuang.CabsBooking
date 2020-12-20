@@ -1,0 +1,12 @@
+/Users/kai/Desktop/CabsBooking.Web/KaiHungHuang.CabsBooking.Infrastructure/bin/Debug/netstandard2.1/KaiHungHuang.CabsBooking.Infrastructure.deps.json
+/Users/kai/Desktop/CabsBooking.Web/KaiHungHuang.CabsBooking.Infrastructure/bin/Debug/netstandard2.1/KaiHungHuang.CabsBooking.Infrastructure.dll
+/Users/kai/Desktop/CabsBooking.Web/KaiHungHuang.CabsBooking.Infrastructure/bin/Debug/netstandard2.1/KaiHungHuang.CabsBooking.Infrastructure.pdb
+/Users/kai/Desktop/CabsBooking.Web/KaiHungHuang.CabsBooking.Infrastructure/bin/Debug/netstandard2.1/KaiHungHuang.CabsBooking.Core.dll
+/Users/kai/Desktop/CabsBooking.Web/KaiHungHuang.CabsBooking.Infrastructure/bin/Debug/netstandard2.1/KaiHungHuang.CabsBooking.Core.pdb
+/Users/kai/Desktop/CabsBooking.Web/KaiHungHuang.CabsBooking.Infrastructure/obj/Debug/netstandard2.1/KaiHungHuang.CabsBooking.Infrastructure.csprojAssemblyReference.cache
+/Users/kai/Desktop/CabsBooking.Web/KaiHungHuang.CabsBooking.Infrastructure/obj/Debug/netstandard2.1/KaiHungHuang.CabsBooking.Infrastructure.AssemblyInfoInputs.cache
+/Users/kai/Desktop/CabsBooking.Web/KaiHungHuang.CabsBooking.Infrastructure/obj/Debug/netstandard2.1/KaiHungHuang.CabsBooking.Infrastructure.AssemblyInfo.cs
+/Users/kai/Desktop/CabsBooking.Web/KaiHungHuang.CabsBooking.Infrastructure/obj/Debug/netstandard2.1/KaiHungHuang.CabsBooking.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/kai/Desktop/CabsBooking.Web/KaiHungHuang.CabsBooking.Infrastructure/obj/Debug/netstandard2.1/KaiHungHuang.CabsBooking.Infrastructure.csproj.CopyComplete
+/Users/kai/Desktop/CabsBooking.Web/KaiHungHuang.CabsBooking.Infrastructure/obj/Debug/netstandard2.1/KaiHungHuang.CabsBooking.Infrastructure.dll
+/Users/kai/Desktop/CabsBooking.Web/KaiHungHuang.CabsBooking.Infrastructure/obj/Debug/netstandard2.1/KaiHungHuang.CabsBooking.Infrastructure.pdb

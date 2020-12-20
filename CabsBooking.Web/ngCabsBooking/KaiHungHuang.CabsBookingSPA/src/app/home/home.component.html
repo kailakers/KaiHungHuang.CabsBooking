@@ -1,0 +1,18 @@
+<h1>DashBoard</h1>
+
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Car Name</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let cabtype of cabtypes; index as i">
+    <th scope="row">{{ i + 1 }}</th>
+    <td>
+        <a [routerLink]="['booking/cabtype', cabtype.cabTypeId]">{{ cabtype.cabTypeName }}</a>
+    </td>
+  </tr>
+  </tbody>
+</table>

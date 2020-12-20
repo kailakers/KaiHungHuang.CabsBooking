@@ -1,0 +1,42 @@
+<div class="container">
+    <form  (ngSubmit) = "placeAction()" #lgoinFrom="ngForm">
+        <div class="form-group">
+          <label>Place</label>
+          <input
+            type="text"
+            class="form-control"
+            id="placeName"
+            name = "placeName" [(ngModel)] = "place.placeName"
+            maxlength="30"
+          />
+        </div>
+        <input type="submit" class="btn btn-primary" value="Add"/>
+    </form>
+</div>
+<br>
+<div>
+  <table class="table table-striped">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">Place Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let place of places; index as i">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>
+            {{ place.placeName }}
+        </td>
+        <td>
+            <button type="button" class="btn btn-info"
+            (click)="getPlace(place.placeId)">Edit</button>
+        </td>
+        <td>
+            <button type="button" class="btn btn-info"
+            (click)="deletePlace(place.placeId)">Delete</button>
+        </td>
+        </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaiHungHuang.CabsBooking.Core", "KaiHungHuang.CabsBooking.Core\KaiHungHuang.CabsBooking.Core.csproj", "{749C0381-A68D-49A9-AB31-B98F7A641227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaiHungHuang.CabsBooking.Infrastructure", "KaiHungHuang.CabsBooking.Infrastructure\KaiHungHuang.CabsBooking.Infrastructure.csproj", "{0FB907F0-EEB0-48E9-AB76-ED4FCE4EAA8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaiHungHuang.CabsBooking.API", "KaiHungHuang.CabsBooking.API\KaiHungHuang.CabsBooking.API.csproj", "{CDB51C10-8E9B-41CB-A515-B98E141E80A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{749C0381-A68D-49A9-AB31-B98F7A641227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749C0381-A68D-49A9-AB31-B98F7A641227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749C0381-A68D-49A9-AB31-B98F7A641227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749C0381-A68D-49A9-AB31-B98F7A641227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB907F0-EEB0-48E9-AB76-ED4FCE4EAA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB907F0-EEB0-48E9-AB76-ED4FCE4EAA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB907F0-EEB0-48E9-AB76-ED4FCE4EAA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB907F0-EEB0-48E9-AB76-ED4FCE4EAA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB51C10-8E9B-41CB-A515-B98E141E80A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB51C10-8E9B-41CB-A515-B98E141E80A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB51C10-8E9B-41CB-A515-B98E141E80A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB51C10-8E9B-41CB-A515-B98E141E80A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

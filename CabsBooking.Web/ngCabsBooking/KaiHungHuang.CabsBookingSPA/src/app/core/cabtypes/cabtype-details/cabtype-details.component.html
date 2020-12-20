@@ -1,0 +1,55 @@
+<h1>Booking Detail</h1>
+<div>
+    <table class="table table-striped">
+      <thead>
+          <tr>
+          <th scope="col">#</th>
+          <th scope="col">Eamil</th>
+          <th scope="col">Booking Date</th>
+          <th scope="col">From</th>
+          <th scope="col">To</th>
+          <th scope="col">PickupAddress</th>
+          <th scope="col">Landmark</th>
+          <th scope="col">PickupDate</th>
+          <th scope="col">Cab Type</th>
+          <th scope="col">ContactNo</th>
+          <th scope="col">Status</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let booking of bookings; index as i">
+          <th scope="row">{{ i + 1 }}</th>
+          <td>
+              {{ booking.email }}
+          </td>
+          <td>
+              {{ booking.bookingDate | date:"yyyy-MM-dd" }} {{booking.bookingTime}}
+          </td>
+          <td>
+              {{ booking.fromPlaceName}}
+          </td>
+          <td>
+              {{ booking.toPlaceName }}
+          </td>
+          <td>
+              {{ booking.pickupAddress }}
+          </td>
+          <td>
+              {{ booking.landmark }}
+          </td>
+          <td>
+              {{ booking.pickupDate | date:"yyyy-MM-dd" }} {{booking.pickupTime}}
+          </td>
+          <td>
+              {{ booking.cabTypeName }}
+          </td>
+          <td>
+              {{ booking.contactNo }}
+          </td>
+          <td>
+              {{ booking.status }}
+          </td>
+          </tr>
+      </tbody>
+    </table>
+  </div>

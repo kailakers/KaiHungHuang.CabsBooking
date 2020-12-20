@@ -1,0 +1,42 @@
+<div class="container">
+    <form  (ngSubmit) = "CabTypeAction()" #lgoinFrom="ngForm">
+        <div class="form-group">
+          <label>CarType</label>
+          <input
+            type="text"
+            class="form-control"
+            id="carName"
+            name = "carName" [(ngModel)] = "cabType.cabTypeName"
+            maxlength="30"
+          />
+        </div>
+        <input type="submit" class="btn btn-primary" value="Add"/>
+    </form>
+</div>
+<br>
+<div>
+  <table class="table table-striped">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">Car Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let cabtype of cabtypes; index as i">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>
+            {{ cabtype.cabTypeName }}
+        </td>
+        <td>
+            <button type="button" class="btn btn-info"
+            (click)="getCabType(cabtype.cabTypeId)">Edit</button>
+        </td>
+        <td>
+            <button type="button" class="btn btn-info"
+            (click)="deleteCabType(cabtype.cabTypeId)">Delete</button>
+        </td>
+        </tr>
+    </tbody>
+  </table>
+</div>
