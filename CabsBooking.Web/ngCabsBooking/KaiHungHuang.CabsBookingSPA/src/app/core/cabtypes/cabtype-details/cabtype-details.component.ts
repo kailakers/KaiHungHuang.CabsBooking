@@ -11,7 +11,7 @@ import { Booking } from '../../shared/models/booking';
 export class CabtypeDetailsComponent implements OnInit {
   bookings: Booking[] = [];
   cabtypeId?: number;
-  cabTypeName: string;
+  
   constructor(
     private bookingService:BookingService,
     private route: ActivatedRoute

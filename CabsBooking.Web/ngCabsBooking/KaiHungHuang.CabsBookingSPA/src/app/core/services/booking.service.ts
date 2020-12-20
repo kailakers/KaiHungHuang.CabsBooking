@@ -41,6 +41,7 @@ export class BookingService {
     );
   }
 
+  // getOne
   getById(id: number): Observable<Booking> {
     return this.apiService.getById('Booking/', id);
   }

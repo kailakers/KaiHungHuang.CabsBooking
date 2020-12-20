@@ -37,6 +37,7 @@ export class BookinghistoriesComponent implements OnInit {
     private router: Router,
   ) { }
 
+  // Load data to refresh the listing board
   loadData() {
     this.bookingHistoryService.getAllBookingHistories().subscribe((bh)=>{
       this.bookingHistories = bh;
@@ -118,6 +119,7 @@ export class BookinghistoriesComponent implements OnInit {
     )
   }
 
+  // Making decision whether to create the data or update the data
   BookingHistoryAction() {
     if(this.bookingHistory.id==null)
       this.createBookingHistory();
